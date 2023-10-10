@@ -15,9 +15,14 @@
 // console.log(document.getElementById('header-title'))
 var headerTitle = document.getElementById('header-title');
 var header = document.getElementById('main-header');
-console.log(headerTitle);
+// console.log(headerTitle);
 // headerTitle.textContent="Hello";
 // headerTitle.innerText = "Goodbye";
 //console.log(headerTitle.innerText);
 // headerTitle.innerHTML = '<h3>Hello</h3>';
-header.style.borderBottom="solid 3px #000"
+header.style.borderBottom="solid 3px #000";
+
+var list = document.getElementById('items');
+list.style.color="green";
+list.style.fontWeight="bold";
+console.log(list);
