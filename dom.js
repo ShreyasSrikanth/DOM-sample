@@ -29,3 +29,14 @@ header.style.borderBottom="solid 3px #000";
 var element = document.getElementsByClassName('list-group-item');
 element[2].style.fontWeight = 'bold';
 element[2].style.backgroundColor='green'
+//Gives error because getElementsByClassName is an array
+//element.style.backgroundColor='green'
+
+var element2 = document.getElementsByClassName('list-group2-item');
+element2[0].textContent="ChangedText";
+console.log(element2[0]);
+
+
+var li = document.getElementsByTagName('li');
+li[3].textContent="Change text using getElementByTagName";
+console.log(li)
