@@ -103,34 +103,34 @@ console.log(itemList.parentElement);
 // itemList.lastElementChild.textContent="Hello 4";
 
 //nextSibling
-console.log(itemList.nextSibling);
+// console.log(itemList.nextSibling);
 
 //nextElementSibling
-console.log(itemList.nextElementSibling);
+// console.log(itemList.nextElementSibling);
 
 //previousSibling
-console.log(itemList.previousSibling);
+// console.log(itemList.previousSibling);
 
 //previousElementSibling
-console.log(itemList.previousElementSibling);
-itemList.previousElementSibling.style.color = 'green';
+// console.log(itemList.previousElementSibling);
+// itemList.previousElementSibling.style.color = 'green';
 
 //createElement
 //create a div
-var newDiv = document.createElement('div');
+// var newDiv = document.createElement('div');
 
 //Add class
-newDiv.className = 'hello';
+// newDiv.className = 'hello';
 
 //Add id
-newDiv.id = 'hello1';
+// newDiv.id = 'hello1';
 
 //Add attr first value = title and second is value for title
-newDiv.setAttribute('title','Hello Div'); 
+// newDiv.setAttribute('title','Hello Div'); 
 
 //Create text node
-var newDivText = document.createTextNode('Hello world');
+// var newDivText = document.createTextNode('Hello world');
 
 //Add text to div
-newDiv.appendChild(newDivText);
-console.log(newDiv);
+// newDiv.appendChild(newDivText);
+// console.log(newDiv);
